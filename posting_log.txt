@@ -1,0 +1,12 @@
+fightflight: IG=17981266347100790 FB={'id': '1051912637569130'}
+depleted: IG=18086088590175949 FB={'id': '4477439372539635'}
+fightflight: IG=18372552316232780 FB={'id': '28306724982253329'}
+reframe: FAILED Graph API error 400: {"error":{"message":"Invalid parameter","type":"OAuthException","code":100,"error_subcode":2207067,"is_transient":false,"error_user_title":"Niet-ondersteund mediatype VIDEO","error_user_msg":"De waarde VIDEO als mediatype is verouderd. Gebruik mediatype REELS om een video op je Instagram-overzicht te publiceren. Ga naar https:\/\/developers.facebook.com\/docs\/instagram-api\/reference\/ig-user\/media#creating om een video te publiceren.","fbtrace_id":"AE14tsTuM6YcAbliMa-EIo1"}}
+coldwater: IG=18146981920476700 FB={'id': '1078135271454819'}
+reframe: IG=18123958507775858 FB={'id': '2027150751264975'}
+exhale: IG=17943183582057947 FB={'id': '897142016800546'}
+boundaries: IG=17969435549935830 FB={'id': '1061942136751709'} [SUPERSEDED: wrong aspect ratio + black cover thumb, FB post deleted+reposted below, IG post could not be deleted via API]
+boundaries: IG=PENDING_MANUAL_DELETE_OF_17969435549935830 FB={'id': '1341637138057419'}
+shoulders: FAILED <urlopen error [SSL] unknown error (0xa0003e8) (_ssl.c:1082)>
+shoulders: IG=18123089947830070 FB={'id': '1432390585365157'}
+cry: IG=18543996469073586 FB={'id': '1761721598342723'}
