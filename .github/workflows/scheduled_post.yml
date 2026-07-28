@@ -1,0 +1,44 @@
+name: Scheduled Instagram/Facebook Posting
+
+on:
+  schedule:
+    - cron: "0 10 * * *"
+  workflow_dispatch:
+    inputs:
+      slug:
+        description: "Specific slug to post now (leave empty for today's scheduled slug)"
+        required: false
+        default: ""
+
+concurrency:
+  group: scheduled-post
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run scheduled post
+        env:
+          META_USER_ACCESS_TOKEN: ${{ secrets.META_USER_ACCESS_TOKEN }}
+          META_IG_BUSINESS_ID: ${{ secrets.META_IG_BUSINESS_ID }}
+          META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+        run: python scripts/scheduled_post.py ${{ github.event.inputs.slug }}
+
+      - name: Commit updated posting log
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add posting_log.txt
+          git diff --staged --quiet || git commit -m "Log scheduled post $(date -u +%Y-%m-%d)"
+          git push
