@@ -15,7 +15,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from post_to_meta import post_to_instagram, post_to_facebook
+from post_to_meta import post_to_instagram, post_to_facebook, post_carousel_to_instagram, post_carousel_to_facebook
 
 REPO_ROOT = os.path.join(os.path.dirname(__file__), "..")
 LOG_PATH = os.path.join(REPO_ROOT, "posting_log.txt")
@@ -70,9 +70,6 @@ if __name__ == "__main__":
             sys.exit(0)
 
     post = POSTS[slug]
-    is_reel = post["kind"] == "reel"
-    # Carousel-style slide videos ("video" kind) fade in from black; skip past that for the cover thumbnail.
-    thumb_offset_ms = 300 if post["kind"] == "video" else None
     full_caption = post["caption"] + HASHTAGS
 
     if os.path.exists(LOG_PATH):
@@ -82,8 +79,17 @@ if __name__ == "__main__":
                 sys.exit(0)
 
     try:
-        ig_id = post_to_instagram(full_caption, video_filename=post["video_filename"], is_reel=is_reel, thumb_offset_ms=thumb_offset_ms)
-        fb_result = post_to_facebook(post["caption"] + HASHTAGS, video_filename=post["video_filename"])
+        # "carousel" = real swipeable multi-image post (separate image_filenames list).
+        # Do NOT use the old "video" kind for new carousel-style content -- that rendered
+        # a single slideshow video that only looked like slides, it was never swipeable.
+        if post["kind"] == "carousel":
+            ig_id = post_carousel_to_instagram(full_caption, post["image_filenames"])
+            fb_result = post_carousel_to_facebook(post["caption"] + HASHTAGS, post["image_filenames"])
+        else:
+            is_reel = post["kind"] == "reel"
+            thumb_offset_ms = 300 if post["kind"] == "video" else None
+            ig_id = post_to_instagram(full_caption, video_filename=post["video_filename"], is_reel=is_reel, thumb_offset_ms=thumb_offset_ms)
+            fb_result = post_to_facebook(post["caption"] + HASHTAGS, video_filename=post["video_filename"])
         with open(LOG_PATH, "a", encoding="utf-8") as f:
             f.write(f"{slug}: IG={ig_id} FB={fb_result}\n")
         print(f"{slug}: posted. IG={ig_id} FB={fb_result}")
