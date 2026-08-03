@@ -29,20 +29,10 @@ DATE_TO_SLUG = {
     "2026-07-30": "rest",
     "2026-07-31": "words",
     "2026-08-01": "remembers",
-    "2026-08-04": "rest-uncomfortable",
-    "2026-08-05": "five-things-dont-calm",
-    "2026-08-06": "30-second-reset",
-    "2026-08-07": "stress-not-just-head",
-    "2026-08-08": "fight-flight-freeze-fawn",
-    "2026-08-09": "morning-habit",
-    "2026-08-10": "hormones",
-    "2026-08-11": "before-bed",
-    "2026-08-12": "stopped-believing-about-rest",
-    "2026-08-13": "signs-body-begging",
-    "2026-08-14": "myths",
-    "2026-08-15": "body-language",
-    "2026-08-16": "journal-prompt",
-    "2026-08-17": "physiological-sigh",
+    # Week 2 (post02-post15) is intentionally NOT scheduled yet. Nicole has not
+    # approved this content -- she wants to review/revise each post first. Add
+    # a "YYYY-MM-DD": "slug" line back here only after she explicitly approves
+    # that specific post's final caption + voice + video.
 }
 
 POSTS = {
