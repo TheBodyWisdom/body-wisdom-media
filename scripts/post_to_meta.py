@@ -76,7 +76,7 @@ def post_to_instagram(caption, image_filename=None, video_filename=None, is_reel
     return published["id"]
 
 
-def post_carousel_to_instagram(caption, image_filenames):
+def post_carousel_to_instagram(caption, image_filenames, folder="week1"):
     """Real swipeable IG carousel: each image becomes its own unpublished child
     container (is_carousel_item=true), then a parent CAROUSEL container references
     all children by id, then that parent gets published. This is NOT the same as
@@ -92,7 +92,7 @@ def post_carousel_to_instagram(caption, image_filenames):
     child_ids = []
     for filename in image_filenames:
         params = {
-            "image_url": raw_github_url(filename),
+            "image_url": raw_github_url(filename, folder=folder),
             "is_carousel_item": "true",
             "access_token": token,
         }
@@ -116,13 +116,13 @@ def post_carousel_to_instagram(caption, image_filenames):
     return published["id"]
 
 
-def post_carousel_to_facebook(message, image_filenames):
+def post_carousel_to_facebook(message, image_filenames, folder="week1"):
     """Real multi-photo FB post: upload each photo unpublished to get its id,
     then create a feed post that attaches all of them via attached_media.
     """
     page_id = os.environ["META_PAGE_ID"]
     token = os.environ["META_PAGE_ACCESS_TOKEN"]
-    local_dir = os.path.join(REPO_ROOT, "week1")
+    local_dir = os.path.join(REPO_ROOT, folder)
 
     media_ids = []
     for filename in image_filenames:
