@@ -29,10 +29,22 @@ DATE_TO_SLUG = {
     "2026-07-30": "rest",
     "2026-07-31": "words",
     "2026-08-01": "remembers",
-    # Week 2 (post02-post15) is intentionally NOT scheduled yet. Nicole has not
-    # approved this content -- she wants to review/revise each post first. Add
-    # a "YYYY-MM-DD": "slug" line back here only after she explicitly approves
-    # that specific post's final caption + voice + video.
+    # Week 2/3 (post02-post15), approved 2026-08-04 after 3 review rounds
+    # (format/music/voice fixes, then pacing fix, then speed pass).
+    "2026-08-05": "rest-uncomfortable",
+    "2026-08-06": "five-things-dont-calm",
+    "2026-08-07": "30-second-reset",
+    "2026-08-08": "stress-not-just-head",
+    "2026-08-09": "fight-flight-freeze-fawn",
+    "2026-08-10": "morning-habit",
+    "2026-08-11": "hormones",
+    "2026-08-12": "before-bed",
+    "2026-08-13": "stopped-believing-about-rest",
+    "2026-08-14": "signs-body-begging",
+    "2026-08-15": "myths",
+    "2026-08-16": "body-language",
+    "2026-08-17": "journal-prompt",
+    "2026-08-18": "physiological-sigh",
 }
 
 POSTS = {
@@ -62,85 +74,85 @@ POSTS = {
         "kind": "reel",
     },
     "rest-uncomfortable": {
-        "caption": " Most women miss this sign of a tired nervous system \U0001F440\n\nIf rest makes you restless instead of relaxed, that's not you failing at resting. For a nervous system used to being on, stillness can feel unsafe before it feels safe.\n\nThat discomfort isn't a sign to push through. It's a sign to start smaller.\n\nWhich one do you recognise most? Let me know below \U0001F447",
+        "caption": " One of the most overlooked signs of a tired nervous system \U0001F440\n\nIf resting makes you feel restless instead of relaxed, you're not failing at rest.\n\nFor a nervous system that's used to being “on,” stillness can feel unfamiliar, or even unsafe, before it starts to feel safe.\n\nThat discomfort isn't a sign to push through.\n\nIt's a sign to start smaller.\n\nDo you recognise this in yourself? Let me know in the comments. \U0001F447",
         "video_filename": "post02_rest-uncomfortable.mp4",
         "kind": "reel",
         "folder": "week2",
     },
     "five-things-dont-calm": {
-        "caption": " If you always feel wired but exhausted, this might surprise you\n\nPositive thinking on top of a dysregulated body. Pushing yourself to “just get through it.” Endless scrolling as a way to switch off. Forcing yourself to relax on command. Staying busy so you don't have to feel what's underneath.\n\nAll five are common. They just work on the mind, while the stress sits in the body.\n\nSave this for later \U0001F4CC",
+        "caption": " If relaxing feels impossible, your nervous system may be doing exactly what it has learned to do \U0001F440\n\nWhen your body has been in survival mode for a long time, slowing down doesn't always feel calming.\n\nIt can feel uncomfortable. You might suddenly notice your thoughts racing. Feel restless. Want to grab your phone. Start cleaning. Or find something, anything, to keep yourself busy.\n\nNot because you're bad at resting.\n\nBut because your nervous system has learned that doing feels safer than being.\n\nThe goal isn't to force yourself to relax. It's to help your body discover that slowing down is safe again, one small moment at a time.\n\nHave you ever noticed this happening? \U0001F447",
         "image_filenames": ["post03_slide1.jpg", "post03_slide2.jpg", "post03_slide3.jpg", "post03_slide4.jpg", "post03_slide5.jpg"],
         "kind": "carousel",
         "folder": "week2",
     },
     "30-second-reset": {
-        "caption": " The 30-second reset that actually works ⏱️\n\nFeet flat on the floor. Shoulders drop, even just half an inch. One slow exhale, longer than your inhale. Then gently press your palms together for a few seconds and release.\n\nThirty seconds won't fix a hard day. But it tells your body we're not in danger right now.\n\nTry it right now. Tell me how it felt \U0001F447",
+        "caption": " Your nervous system responds to your body before it responds to your thoughts \U0001F440\n\nThat's why telling yourself “calm down” often doesn't work.\n\nYour body needs signals of safety too.\n\nTry this 30-second reset. Place both feet on the floor. Let your shoulders soften. Take one slow exhale, slightly longer than your inhale. Gently press your palms together for a few seconds, then release.\n\nYou're not forcing yourself to relax.\n\nYou're giving your nervous system a new message: I can slow down right now.\n\nThirty seconds won't fix everything.\n\nBut small moments like this teach your body a different pattern over time.\n\nTry it now. Notice what changes. \U0001F447",
         "video_filename": "post04_30-second-reset.mp4",
         "kind": "reel",
         "folder": "week2",
     },
     "stress-not-just-head": {
-        "caption": " Stress isn't just in your head (most people don't realise this)\n\nYou can understand exactly why you're stressed, fully believe you should be fine, and still feel your chest tight and your stomach in knots. Stress is stored in the body, not just reasoned through in the mind.\n\nThis is why just don't think about it so rarely works.\n\nSend this to someone who needs to hear it \U0001F48C",
+        "caption": " Stress isn't just in your head. Your body is part of the conversation \U0001F440\n\nYou can understand exactly why you're stressed. You can know you're safe. You can tell yourself, “I should be fine.”\n\nAnd still feel your chest tighten, your jaw clench, or your stomach knot.\n\nThat's because your nervous system doesn't only respond to your thoughts. It responds to patterns your body has learned over time.\n\nThis is why thinking your way out of stress isn't always enough.\n\nSometimes your body needs to experience safety, not just understand it.\n\nSave this for when you need the reminder \U0001F4CC",
         "video_filename": "post05_stress-not-just-head.mp4",
         "kind": "reel",
         "folder": "week2",
     },
     "fight-flight-freeze-fawn": {
-        "caption": " Which one are you? Fight, flight, freeze or fawn \U0001F440\n\nFight looks like irritability and snapping over small things. Flight looks like restlessness and overworking. Freeze looks like shutting down and going blank. Fawn looks like people-pleasing and saying yes when you mean no.\n\nMost people move through more than one in a single day.\n\nComment your number below \U0001F447",
+        "caption": " Which stress response do you recognise most? \U0001F440\n\nWhen your nervous system senses stress, it tries to protect you.\n\nIt may move into fight: irritability, frustration, snapping over small things.\n\nOr flight: restlessness, overworking, always needing to do more.\n\nOr freeze: shutting down, feeling numb, going blank.\n\nOr fawn: people-pleasing, avoiding conflict, saying yes when you mean no.\n\nThese aren't personality flaws.\n\nThey're protective responses your body learned to use.\n\nAnd most people move between more than one, sometimes even in the same day.\n\nWhich one do you notice most in yourself? \U0001F447",
         "video_filename": "post06_fight-flight-freeze-fawn.mp4",
         "kind": "reel",
         "folder": "week2",
     },
     "morning-habit": {
-        "caption": " This morning habit is quietly wrecking your nervous system \U0001F4F5\n\nChecking your phone in the first sixty seconds after waking up. Before your body has even settled into being awake, it's already taking in notifications and things to react to.\n\nA few minutes of not reaching for it changes how the whole day lands on your body.\n\nReady to break the habit? Link in bio \U0001F517",
+        "caption": " Which stress response do you recognise most? \U0001F440\n\nWhen your nervous system senses stress, it tries to protect you.\n\nIt may move into fight: irritability, frustration, snapping over small things.\n\nOr flight: restlessness, overworking, always needing to do more.\n\nOr freeze: shutting down, feeling numb, going blank.\n\nOr fawn: people-pleasing, avoiding conflict, saying yes when you mean no.\n\nThese aren't personality flaws.\n\nThey're protective patterns your nervous system uses to help you cope.\n\nThe good news? These patterns can be gently shifted through awareness, safety and new experiences in the body.\n\nThat's exactly what the Nervous System Reset Kit was created for: simple daily tools to help you reconnect with your body and create more moments of calm.\n\nExplore the Reset Kit through the link in bio \U0001F331",
         "video_filename": "post07_morning-habit.mp4",
         "kind": "reel",
         "folder": "week2",
     },
     "hormones": {
-        "caption": " 5 ways stress is messing with your hormones (number 3 surprised me)\n\nSleep hormones, hunger cues, your cycle, cortisol, and the hormones connected to feeling calm and connected to others. None of this means you did something wrong. It's your body responding to sustained pressure exactly as designed.\n\nSave this for later \U0001F4CC",
-        "image_filenames": ["post08_slide1.jpg", "post08_slide2.jpg", "post08_slide3.jpg", "post08_slide4.jpg", "post08_slide5.jpg"],
+        "caption": " 5 ways chronic stress can affect your hormones (and your body's signals)\n\nStress doesn't just affect your thoughts. Your body is constantly adjusting to the signals it receives.\n\nWhen stress becomes ongoing, your nervous system can start prioritising survival over balance.\n\nThis can influence your sleep, appetite, energy, cycle and even how connected you feel to yourself and others.\n\nIt doesn't mean your body is broken.\n\nIt means your body has been trying to protect you.\n\nLearning to listen to these signals is the first step toward supporting your nervous system.\n\nSave this for when you need the reminder \U0001F4CC",
+        "image_filenames": ["post08_slide1.jpg", "post08_slide2.jpg", "post08_slide3.jpg", "post08_slide4.jpg", "post08_slide5.jpg", "post08_slide6.jpg"],
         "kind": "carousel",
         "folder": "week2",
     },
     "before-bed": {
-        "caption": " Do this 2 minutes before bed and thank me later \U0001F319\n\nLie down, hand on your belly. In through the nose for a count of four, out through the mouth for a count of six; exhale longer than the inhale, every time.\n\nA longer exhale reliably tells your nervous system it's safe to power down.\n\nTry it tonight. Let me know how it goes \U0001F447",
+        "caption": " Try this 2-minute reset before bed \U0001F319\n\nIf your body feels tired but your mind is still switched on, try this.\n\nLie down and place one hand on your belly.\n\nBreathe in through your nose for a count of 4. Exhale slowly for a count of 6. Repeat.\n\nA longer exhale can support your nervous system in shifting out of a stress state and into a more restful state.\n\nYou're not forcing yourself to sleep.\n\nYou're creating a moment of safety and slowing down.\n\nWant more simple practices like this? Find the Nervous System Reset Kit through the link in bio \U0001F331",
         "video_filename": "post09_before-bed.mp4",
         "kind": "reel",
         "folder": "week2",
     },
     "stopped-believing-about-rest": {
-        "caption": " Things I stopped believing about rest \U0001F4AD\n\nThat it has to be earned. That it only counts if it's a whole day off. That pushing through tiredness is discipline. That rest comes after everything else is done.\n\nUnlearning these happened one small rest at a time, taken without asking permission first.\n\nWhich one hits home? Tell me below \U0001F447",
+        "caption": " Things I stopped believing about rest \U0001F4AD\n\nThat rest has to be earned.\n\nThat it only counts if I have a whole day with nothing planned.\n\nThat pushing through exhaustion is discipline.\n\nThat I can only slow down once everything is finished.\n\nThe truth? Rest isn't something you have to deserve. It's something your body needs to function, regulate and reconnect.\n\nUnlearning these beliefs happened slowly, one small moment of rest at a time.\n\nNot because I had permission.\n\nBecause I started listening.\n\nWhich one do you need to let go of? \U0001F447",
         "video_filename": "post10_stopped-believing-about-rest.mp4",
         "kind": "reel",
         "folder": "week2",
     },
     "signs-body-begging": {
-        "caption": " Signs your body is begging you to slow down \U0001F6D1\n\nGetting sick right when you finally slow down. Losing patience faster than usual. Forgetting small things. Feeling touched-out. Daydreaming about doing absolutely nothing.\n\nThese aren't random. They're requests; usually quiet ones, at first.\n\nSave this for when you need the reminder \U0001F516",
+        "caption": " Subtle signs your body may be asking you to slow down \U0001F6D1\n\nGetting sick right when you finally slow down.\n\nLosing patience faster than usual.\n\nForgetting small things.\n\nFeeling touched-out or overwhelmed by little things.\n\nDaydreaming about doing absolutely nothing.\n\nThese aren't random signs.\n\nThey're often your body's way of telling you that your capacity has been stretched for too long.\n\nYour body usually whispers before it starts shouting.\n\nSave this for the days you need the reminder \U0001F516",
         "video_filename": "post11_signs-body-begging.mp4",
         "kind": "reel",
         "folder": "week2",
     },
     "myths": {
-        "caption": " Nervous system myths that are keeping you stuck ❌✅\n\nMyth: calming down is a mindset. Fact: it's a physical process your body has to go through. Myth: if you're not panicking, you're not dysregulated. Fact: numbness and shutdown are dysregulation too. Myth: more willpower fixes it. Fact: safety cues do. Myth: this is just how you are. Fact: nervous systems recalibrate, at any age.\n\nWhich myth did you believe? Let me know \U0001F447",
-        "image_filenames": ["post12_slide1.jpg", "post12_slide2.jpg", "post12_slide3.jpg", "post12_slide4.jpg", "post12_slide5.jpg"],
+        "caption": " Nervous system myths that are keeping you stuck ❌✅\n\nMyth: calming down is a mindset. Fact: it's a physical process your body has to go through.\n\nMyth: if you're not panicking, you're not dysregulated. Fact: numbness and shutdown are dysregulation too.\n\nMyth: more willpower fixes it. Fact: safety cues do.\n\nMyth: this is just how you are. Fact: nervous systems recalibrate, at any age.\n\nMyth: once you're 'healed', you'll feel calm all the time. Fact: regulation means flexibility, not permanent calm.\n\nWhich myth did you believe? Let me know \U0001F447",
+        "image_filenames": ["post12_slide1.jpg", "post12_slide2.jpg", "post12_slide3.jpg", "post12_slide4.jpg", "post12_slide5.jpg", "post12_slide6.jpg"],
         "kind": "carousel",
         "folder": "week2",
     },
     "body-language": {
-        "caption": " What your body is trying to tell you (and why you're ignoring it) \U0001FAF6\n\nTension you can't relax on command. A stomach that reacts before you register you're anxious. A jaw clenched in your sleep.\n\nThese aren't malfunctions. They're your body's language.\n\nFollow along if this is new to you \U0001F331",
+        "caption": " Your body can react to a threat before your conscious mind even registers what happened \U0001F440\n\nThat's why your stomach can drop, or your jaw can clench, before you consciously know why.\n\nIt's not overreacting. It's your nervous system scanning for safety faster than your thinking brain can keep up.\n\nScientists call this neuroception: a constant background scan for danger or safety that runs underneath your awareness.\n\nThe more familiar you get with your own early signals, tight shoulders, a held breath, a clenched jaw, the sooner you can respond instead of just reacting.\n\nWhat's the first place you usually feel it? \U0001F447",
         "video_filename": "post13_body-language.mp4",
         "kind": "reel",
         "folder": "week2",
     },
     "journal-prompt": {
-        "caption": " What does your body need most today? \U0001F90D\n\n“Where in my body do I usually feel it first when something is wrong, before I've even named what's wrong?”\n\nSit with that one for a minute before you write anything.\n\nLet me know today \U0001F447",
+        "caption": " What does your body need most today? \U0001F90D\n\nMost of us notice a feeling in our head first: a thought, a worry, a story. But your body usually feels it first, if you know how to check.\n\n“Where in my body do I usually feel it first when something is wrong, before I've even named what's wrong?”\n\nSit with that one for a minute before you write anything.\n\nLet me know today \U0001F447",
         "image_filename": "post14_static.jpg",
         "kind": "static",
         "folder": "week2",
     },
     "physiological-sigh": {
-        "caption": " The fastest way to calm your nervous system (it's not what you think) \U0001F32C️\n\nTwo inhales through the nose, no pause between them, then one long, slow exhale through the mouth. It's called the physiological sigh. It's one of the fastest ways to calm your body that's actually backed by research.\n\nNot five minutes. Just one breath, whenever you need it.\n\nReady to feel calmer? Link in bio for more like this \U0001F517",
+        "caption": " The fastest way to calm your nervous system takes less than 30 seconds, and it's not deep breathing \U0001F32C️\n\nTwo short inhales through the nose, no pause between them, followed by one long, slow exhale through the mouth.\n\nIt's called the physiological sigh, and unlike most breathing techniques, it's backed by actual research on how the body regulates itself.\n\nThe double inhale fully reinflates your lungs, and the long exhale signals your nervous system to slow your heart rate down, right there in the moment.\n\nNot five minutes. Just one breath, whenever you need it.\n\nTry it right now. Notice what shifts \U0001F447",
         "video_filename": "post15_physiological-sigh.mp4",
         "kind": "reel",
         "folder": "week2",
