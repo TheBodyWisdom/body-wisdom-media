@@ -30,21 +30,24 @@ DATE_TO_SLUG = {
     "2026-07-31": "words",
     "2026-08-01": "remembers",
     # Week 2/3 (post02-post15), approved 2026-08-04 after 3 review rounds
-    # (format/music/voice fixes, then pacing fix, then speed pass).
-    "2026-08-05": "rest-uncomfortable",
-    "2026-08-06": "five-things-dont-calm",
-    "2026-08-07": "30-second-reset",
-    "2026-08-08": "stress-not-just-head",
-    "2026-08-09": "fight-flight-freeze-fawn",
-    "2026-08-10": "morning-habit",
-    "2026-08-11": "hormones",
-    "2026-08-12": "before-bed",
-    "2026-08-13": "stopped-believing-about-rest",
-    "2026-08-14": "signs-body-begging",
-    "2026-08-15": "myths",
-    "2026-08-16": "body-language",
-    "2026-08-17": "journal-prompt",
-    "2026-08-18": "physiological-sigh",
+    # (format/music/voice fixes, then pacing fix, then speed pass). post02
+    # (rest-uncomfortable) was posted manually on 2026-08-04 itself since the
+    # day's 10:00 UTC cron window had already passed before approval landed;
+    # remaining dates start the next day.
+    "2026-08-04": "rest-uncomfortable",
+    "2026-08-05": "five-things-dont-calm",
+    "2026-08-06": "30-second-reset",
+    "2026-08-07": "stress-not-just-head",
+    "2026-08-08": "fight-flight-freeze-fawn",
+    "2026-08-09": "morning-habit",
+    "2026-08-10": "hormones",
+    "2026-08-11": "before-bed",
+    "2026-08-12": "stopped-believing-about-rest",
+    "2026-08-13": "signs-body-begging",
+    "2026-08-14": "myths",
+    "2026-08-15": "body-language",
+    "2026-08-16": "journal-prompt",
+    "2026-08-17": "physiological-sigh",
 }
 
 POSTS = {
