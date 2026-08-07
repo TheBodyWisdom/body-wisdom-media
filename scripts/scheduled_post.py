@@ -162,24 +162,41 @@ POSTS = {
     },
 }
 
+def already_posted_slugs():
+    if not os.path.exists(LOG_PATH):
+        return set()
+    with open(LOG_PATH, encoding="utf-8") as f:
+        return {line.split(":", 1)[0].strip() for line in f if ": IG=" in line}
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         slug = sys.argv[1]
     else:
         today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
-        slug = DATE_TO_SLUG.get(today)
+        posted = already_posted_slugs()
+        # Post the OLDEST not-yet-posted scheduled date up to and including today,
+        # not just today's exact date. A plain today-only lookup means a single
+        # missed run (e.g. a GitHub-hosted-runner infra hiccup, see 2026-08-06)
+        # skips that day's post forever with no retry, since tomorrow's run only
+        # ever looks at tomorrow's date. This makes a missed day self-heal on the
+        # very next run instead.
+        slug = None
+        for d in sorted(d for d in DATE_TO_SLUG if d <= today):
+            candidate = DATE_TO_SLUG[d]
+            if candidate not in posted:
+                slug = candidate
+                break
         if slug is None:
-            print(f"No post scheduled for {today}, nothing to do.")
+            print(f"No unposted post due by {today}, nothing to do.")
             sys.exit(0)
 
     post = POSTS[slug]
     full_caption = post["caption"] + HASHTAGS
 
-    if os.path.exists(LOG_PATH):
-        with open(LOG_PATH, encoding="utf-8") as f:
-            if any(line.startswith(f"{slug}: IG=") for line in f):
-                print(f"{slug}: already posted successfully, skipping (idempotency guard)")
-                sys.exit(0)
+    if slug in already_posted_slugs():
+        print(f"{slug}: already posted successfully, skipping (idempotency guard)")
+        sys.exit(0)
 
     try:
         folder = post.get("folder", "week1")
