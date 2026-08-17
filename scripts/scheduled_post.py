@@ -48,6 +48,23 @@ DATE_TO_SLUG = {
     "2026-08-15": "body-language",
     "2026-08-16": "journal-prompt",
     "2026-08-17": "physiological-sigh",
+    # Week 3 (15 posts: intro relaunch + 14 reels), approved 2026-08-17, drawn
+    # from the ~85-item review batch. See folder "week3".
+    "2026-08-18": "welcome-questions",
+    "2026-08-19": "brain-fog",
+    "2026-08-20": "three-signals",
+    "2026-08-21": "cold-water-vagus",
+    "2026-08-22": "one-hormone-test",
+    "2026-08-23": "reset-when-scattered",
+    "2026-08-24": "three-stages-breath",
+    "2026-08-25": "vagus-nerve-101",
+    "2026-08-26": "ache-shows-up-late",
+    "2026-08-27": "starting-things-easier",
+    "2026-08-28": "capacity-changes-daily",
+    "2026-08-29": "small-recoveries",
+    "2026-08-30": "overwhelm-realization",
+    "2026-08-31": "energy-drop-before-period",
+    "2026-09-01": "chronic-stress-personality",
 }
 
 POSTS = {
@@ -159,6 +176,96 @@ POSTS = {
         "video_filename": "post15_physiological-sigh.mp4",
         "kind": "reel",
         "folder": "week2",
+    },
+    'welcome-questions': {
+        "caption": 'You know your body. But were you ever taught how to understand it? 🌿\n\nWhy does your energy change throughout your cycle?\nWhy can your body feel restless when your mind feels completely fine?\nWhy does a deep breath sometimes change more than you expected? 🫁\nWhy can the same experience feel completely different from one day to the next?\n\nThese are the kinds of questions we explore here.\n\n𝐓𝐡𝐞 𝐁𝐨𝐝𝐲 𝐖𝐢𝐬𝐝𝐨𝐦 brings together nervous system awareness, hormonal health, cycle wisdom, body awareness, and simple practices to help you understand yourself a little better.\n\n𝑁𝑜𝑡𝑖𝑐𝑒. 𝑈𝑛𝑑𝑒𝑟𝑠𝑡𝑎𝑛𝑑. 𝑅𝑒𝑠𝑝𝑜𝑛𝑑.\n\nWelcome. This is where we begin. 🤍',
+        "video_filename": 'post01_welcome-questions.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'brain-fog': {
+        "caption": 'This is something I see people misunderstand all the time: 𝐛𝐫𝐚𝐢𝐧 𝐟𝐨𝐠 gets blamed on sleep almost by default. Not enough of it, or not the right kind. ✨\n\nSleep matters, but hormonal shifts across the month can also affect focus and mental clarity on their own. Which means a foggy week that follows good sleep isn\'t automatically a mystery.\n\nIt might just be a different part of the cycle asking for a different kind of attention. 💜',
+        "video_filename": 'post02_brain-fog.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'three-signals': {
+        "caption": 'There are 𝑡ℎ𝑟𝑒𝑒 𝑤𝑎𝑦𝑠 your body typically asks for attention, from quietest to loudest. 👉\n\n𝐅𝐢𝐫𝐬𝐭: a subtle shift, slightly less energy, slightly more tension, easy to miss.\n𝐒𝐞𝐜𝐨𝐧𝐝: a repeated pattern, the same ache or fog showing up again and again.\n𝐓𝐡𝐢𝐫𝐝: the one that finally gets a response, a symptom loud enough to actually stop you.\n\nCatching it at stage one usually takes far less than waiting for stage three. ✨\n\nThe 𝐑𝐞𝐬𝐞𝐭 𝐊𝐢𝐭 is built for exactly that first stage, short daily practices that help you catch the subtle shift before it becomes a pattern.\n\nLink in bio if you want to start there. 💜',
+        "video_filename": 'post03_three-signals.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'cold-water-vagus': {
+        "caption": 'Ever splash cold water on your face when you\'re overwhelmed and feel an almost instant shift? 🫁\n\nThat\'s not just a mental reset, it\'s a real physiological one. Cold on the face triggers what\'s called the 𝐝𝐢𝐯𝐞 𝐫𝐞𝐟𝐥𝐞𝐱, which slows your heart rate through the 𝐯𝐚𝐠𝐮𝐬 𝐧𝐞𝐫𝐯𝐞 almost immediately. It\'s one of the fastest ways to interrupt a spiral, faster than most breathing techniques on their own.\n\n👉 Next time you\'re activated: thirty seconds of cold water on your face and jaw, over your eyes if you can.\n\nWorth having in your back pocket. ✨\n\nMore practices like this live inside the Reset Kit, short, guided ways to work with your nervous system in the moment.\n\nLink in bio. 💜',
+        "video_filename": 'post04_cold-water-vagus.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'one-hormone-test': {
+        "caption": 'A result comes back in range, you still feel how you feel, and now you also feel unreasonable for asking. 🍃\n\nMost hormones move by the hour and by the week. A single sample catches 𝐨𝐧𝐞 𝐟𝐫𝐚𝐦𝐞 of that movement, like a 𝑝ℎ𝑜𝑡𝑜, 𝑛𝑜𝑡 𝑎 𝑓𝑖𝑙𝑚. Same body, different morning, different number, and both can be accurate.\n\nThis isn\'t a reason to distrust testing. It\'s a reason to hold one data point loosely and pay attention to your own pattern over weeks. That\'s information no single draw can give you. ✨',
+        "video_filename": 'post05_one-hormone-test.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'reset-when-scattered': {
+        "caption": 'A 𝟑𝟎-𝐬𝐞𝐜𝐨𝐧𝐝 𝐫𝐞𝐬𝐞𝐭 for when you feel scattered. Not a fix, just a small interruption. 🌿\n\n👉 Try this when you notice you\'ve been running on autopilot: name five things you can see without moving your head, then notice one thing you can feel, the chair, your feet, your own hands.\n\nThirty seconds, and your attention has somewhere to land. This is one of several resets built into the Reset Kit, ready for exactly this kind of moment. ✨\n\nLink in bio. 💜',
+        "video_filename": 'post06_reset-when-scattered.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'three-stages-breath': {
+        "caption": 'There are three stages to a breath you didn\'t know you were holding, and the third one is the important part. 🫁\n\n𝐅𝐢𝐫𝐬𝐭: a shallow pattern that\'s been running for a while without you noticing.\n𝐒𝐞𝐜𝐨𝐧𝐝: a tightness across the chest or upper back that seems to come from nowhere.\n𝐓𝐡𝐢𝐫𝐝: the moment you finally exhale fully and feel how much you\'d actually been holding.\n\nThat third moment is usually 𝑡ℎ𝑒 𝑓𝑖𝑟𝑠𝑡 𝑠𝑖𝑔𝑛 of how long the first two had been running. ✨',
+        "video_filename": 'post07_three-stages-breath.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'vagus-nerve-101': {
+        "caption": 'If you keep hearing \'𝐯𝐚𝐠𝐮𝐬 𝐧𝐞𝐫𝐯𝐞\' and aren\'t totally sure what it means, start here. 🫁\n\nIt\'s the longest nerve in your body, running from your brainstem down through your neck, chest, and abdomen. It\'s the main driver of your parasympathetic nervous system, the part responsible for rest, digestion, and recovery. A well-toned vagus nerve tends to mean quicker recovery from stress, better digestion, and steadier mood.\n\n👉 It responds to things you can actually practice: slow breathing, cold exposure, humming, and social connection.\n\nThat\'s the whole picture, we\'ll go deeper from here. ✨\n\nYou\'ll find more of this kind of breakdown, plus the practices that go with it, on the website and in our tools.\n\nLink in bio. 💜',
+        "video_filename": 'post08_vagus-nerve-101.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'ache-shows-up-late': {
+        "caption": 'This is something I see people misunderstand all the time: the ache shows up on Wednesday, but the week that caused it happened days ago. ✨\n\nWe tend to assume the body reacts in real time, matching stress to soreness minute by minute. Often it doesn\'t. It 𝐥𝐨𝐠𝐬, and it releases later, sometimes once the pressure has actually started to ease.\n\nWhich is why 𝑡ℎ𝑒 𝑡𝑒𝑛𝑠𝑖𝑜𝑛 𝑐𝑎𝑛 𝑎𝑟𝑟𝑖𝑣𝑒 𝑟𝑖𝑔ℎ𝑡 𝑤ℎ𝑒𝑛 𝑡ℎ𝑖𝑛𝑔𝑠 𝑓𝑖𝑛𝑎𝑙𝑙𝑦 𝑐𝑎𝑙𝑚 𝑑𝑜𝑤𝑛. 🌿',
+        "video_filename": 'post09_ache-shows-up-late.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'starting-things-easier': {
+        "caption": 'An idea that felt like a mountain two weeks ago suddenly feels doable, and nothing about the idea changed. 🍃\n\nIn the days after a period, 𝐞𝐬𝐭𝐫𝐨𝐠𝐞𝐧 tends to rise, and for a lot of people that overlaps with more appetite for new things and slightly more tolerance for uncertainty. Not a rule, a pattern worth checking against your own months.\n\n👉 If it does hold for you, it\'s usable: start the hard thing in the week starting is cheap, and let the other weeks carry it. 💜',
+        "video_filename": 'post10_starting-things-easier.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'capacity-changes-daily': {
+        "caption": 'Your 𝐜𝐚𝐩𝐚𝐜𝐢𝐭𝐲 can change from day to day. Not because you\'re inconsistent, because your nervous system isn\'t running the same script every day, even when your schedule looks identical. ✨\n\nSleep, food, noise, other people\'s moods, all of it counts.\n\n𝑆𝑜𝑚𝑒 𝑑𝑎𝑦𝑠 ℎ𝑜𝑙𝑑 𝑚𝑜𝑟𝑒. 𝑆𝑜𝑚𝑒 𝑑𝑎𝑦𝑠 ℎ𝑜𝑙𝑑 𝑙𝑒𝑠𝑠. 𝐵𝑜𝑡ℎ 𝑎𝑟𝑒 𝑠𝑡𝑖𝑙𝑙 𝑦𝑜𝑢. 💜',
+        "video_filename": 'post11_capacity-changes-daily.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'small-recoveries': {
+        "caption": 'The plan is always the same: get through this, then recover properly. The proper recovery never quite arrives. ✨\n\nLoad builds continuously, so recovery that only happens afterwards is always working against a 𝐛𝐚𝐜𝐤𝐥𝐨𝐠. Small returns during the day are working against a much smaller number.\n\n👉 Two minutes between tasks. Eating one meal without a screen. A walk without a podcast in your ears. 𝑈𝑛𝑖𝑚𝑝𝑟𝑒𝑠𝑠𝑖𝑣𝑒, 𝑎𝑛𝑑 𝑡ℎ𝑒𝑦 𝑐𝑜𝑢𝑛𝑡.\n\nIf you\'d like a version that fits into the day you already have, the free assessment points you to the right one. 💜',
+        "video_filename": 'post12_small-recoveries.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'overwhelm-realization': {
+        "caption": 'A small realization worth having about overwhelm. ✨\n\nIt\'s not always a sign something\'s wrong. Sometimes it\'s just a nervous system that hasn\'t been given a way to 𝐝𝐢𝐬𝐜𝐡𝐚𝐫𝐠𝐞 𝐚𝐜𝐭𝐢𝐯𝐚𝐭𝐢𝐨𝐧. The feeling can build even when nothing new is happening, simply because it never got a chance to move through.\n\nWhich means the fix isn\'t always solving a problem, sometimes it\'s just movement:\n\n👉 a walk, a shake-out, a few minutes of humming.\n\nSmall realization, different first response next time. 🌿\n\nIf movement is the thing that helps, the Reset Kit has a short practice built around exactly that kind of release.\n\nLink in bio. 💜',
+        "video_filename": 'post13_overwhelm-realization.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'energy-drop-before-period': {
+        "caption": 'Why does your energy sometimes drop a full day before your period actually starts? It can feel like your body is 𝑎 𝑠𝑡𝑒𝑝 𝑎ℎ𝑒𝑎𝑑 𝑜𝑓 𝑡ℎ𝑒 𝑐𝑎𝑙𝑒𝑛𝑑𝑎𝑟. 🍃\n\nIn a sense, it often is. Hormone levels can shift noticeably in the day or two before bleeding begins, before there\'s any visible sign at all.\n\nThe dip isn\'t random. It may just be arriving earlier than the evidence does. ✨',
+        "video_filename": 'post14_energy-drop-before-period.mp4',
+        "kind": "reel",
+        "folder": "week3",
+    },
+    'chronic-stress-personality': {
+        "caption": 'I\'m just an anxious person. I\'ve always been impatient. I don\'t really relax, that\'s just me. ✨\n\nWhen something is constant it stops registering as a state. There\'s no contrast left to measure it against, so it quietly gets filed as 𝐜𝐡𝐚𝐫𝐚𝐜𝐭𝐞𝐫 𝐢𝐧𝐬𝐭𝐞𝐚𝐝 𝐨𝐟 𝐜𝐢𝐫𝐜𝐮𝐦𝐬𝐭𝐚𝐧𝐜𝐞.\n\nIt\'s part of why a proper stretch away can be disorienting rather than pleasant. 𝑌𝑜𝑢 𝑚𝑒𝑒𝑡 𝑎 𝑣𝑒𝑟𝑠𝑖𝑜𝑛 𝑜𝑓 𝑦𝑜𝑢𝑟𝑠𝑒𝑙𝑓 𝑦𝑜𝑢\'𝑑 𝑠𝑡𝑜𝑝𝑝𝑒𝑑 𝑒𝑥𝑝𝑒𝑐𝑡𝑖𝑛𝑔 𝑡𝑜 𝑠𝑒𝑒. 💜',
+        "video_filename": 'post15_chronic-stress-personality.mp4',
+        "kind": "reel",
+        "folder": "week3",
     },
 }
 
